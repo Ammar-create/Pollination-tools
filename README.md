@@ -106,7 +106,7 @@ These are plain HTML files — no build step, no dependencies, no npm.
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/pollinations-tools.git
+git clone https://github.com/Ammar-create/pollinations-tools.git
 
 # Open any tool directly in your browser
 open ai/translator/index.html
