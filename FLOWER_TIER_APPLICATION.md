@@ -9,7 +9,7 @@
 🌐 [lokiodinson.netlify.app/ai](https://lokiodinson.netlify.app/ai)
 
 ### GitHub Repository
-📦 [github.com/YOUR_USERNAME/pollinations-tools](https://github.com/YOUR_USERNAME/pollinations-tools)
+📦 [github.com/YOUR_USERNAME/pollinations-tools](https://github.com/Ammar-create/pollinations-tools)
 
 ---
 
