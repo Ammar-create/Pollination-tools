@@ -37,7 +37,7 @@ All tools in this repo are powered by **[Pollinations.ai](https://pollinations.a
 |---|------|-------------|-------|------|
 | 01 | [📄 Document Translator](#-document-translator) | Translate any text into 20+ languages | Gemini 2.5 Flash-Lite | [→ Open](https://lokiodinson.netlify.app/ai/translator) |
 | 02 | [🎙️ Voice Studio](#️-voice-studio) | Convert text to speech with 40+ voices | tts-1 · OpenAI + ElevenLabs | [→ Open](https://lokiodinson.netlify.app/ai/text2audio) |
-| 03 | [🌄 Image Studio](#-image-studio) | Generate images with AI-enhanced prompts | zimage + Gemini 2.5 Flash-Lite | [→ Open](https://lokiodinson.netlify.app/ai/text2image) |
+| 03 | [🌄 Image Studio](#-image-studio) | Generate images with AI-enhanced prompts | zimage + Mistral Small 3.2 | [→ Open](https://lokiodinson.netlify.app/ai/text2image) |
 
 <br/>
 
@@ -82,10 +82,10 @@ Type or paste any text and hear it spoken by a natural AI voice. Choose from 40+
 
 **Live →** [lokiodinson.netlify.app/ai/text2image](https://lokiodinson.netlify.app/ai/text2image)
 
-Describe any image and generate it instantly. Uses Gemini to intelligently enhance your prompt before sending it to the image model.
+Describe any image and generate it instantly. Uses Mistral to intelligently enhance your prompt before sending it to the image model.
 
 **Features**
-- **Prompt Enhancer** — powered by Gemini 2.5 Flash-Lite
+- **Prompt Enhancer** — powered by Mistral Small 3.2
   - 5 enhancement modes: Cinematic, Detailed, Artistic, Photorealistic, Minimal
   - Enhanced prompt is editable before generation
 - Aspect ratio selector (1:1, 16:9, 9:16, 4:3, 3:2, 21:9)
@@ -96,7 +96,7 @@ Describe any image and generate it instantly. Uses Gemini to intelligently enhan
 - Download generated image
 - Optional custom API key
 
-**Models:** `zimage` + `gemini-2.5-flash-lite` via `gen.pollinations.ai`
+**Models:** `zimage` + `mistral` via `gen.pollinations.ai`
 
 ---
 
@@ -180,7 +180,7 @@ That's it — the card, filter button, and tool count all update automatically.
 |-------|------|
 | Frontend | Vanilla HTML + CSS + JavaScript |
 | AI Platform | [Pollinations.ai](https://pollinations.ai) |
-| Text Model | Gemini 2.5 Flash-Lite |
+| Text Model | Mistral Small 3.2 (Image Studio) · Gemini 2.5 Flash-Lite (Translator) |
 | Audio Model | tts-1 (OpenAI + ElevenLabs voices) |
 | Image Model | zimage |
 | Hosting | Netlify |
